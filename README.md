@@ -8,7 +8,10 @@ This is a repository for a project undertaken as part of the coursework in the c
   - Copy the run\_analysis.R in your working directory
   - Load the the run\_analysis.R in RStudio
   - Call the function run\_analysis
-  - This will produce two output files tidy\_data\_1.txt and tidy\_data\_2.txt in your working directory
+  - This will produce two output files tidy\_data\_1.txt and tidy\_data\_2.txt in your working directory. You can read the files using the two following R statements - 
+		
+		- t1 <- read.table('tidy_data_1.txt')
+		- t2 <- read.table('tidy_data_2.txt')
 
 ###Assumptions / Restrictions
 The code assumes that the data folder UCI HAR Dataset is available in the same folder as the script. If that is not maintained, the script will fail.
