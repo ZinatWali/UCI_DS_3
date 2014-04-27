@@ -13,9 +13,9 @@ This document describes all the processing that has been done on the data and a 
     -  reading training data from files
     -  reading test data from files
     -  combining training and test data
-    -  reading from features.txt
-    -  filtering to extract mean and standard deviation feature names from dataset
-    -  naming columns in the dataset appropriately
+    -  reading feature names from features.txt
+    -  filtering to extract mean and standard deviation feature names 
+    -  naming columns in the dataset with the extracted feature names in the previous step
     -  editing the column names to remove brackets and converting them to all lower case
     -  reading the activity labels dictionary from activity\_labels.txt
     -  cleaning the activity names
